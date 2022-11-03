@@ -1,7 +1,10 @@
 {
   "name": "monorepo-example",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "packages/frontend/index.js",
+  "scripts": {
+    "start": "node packages/frontend/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gcbest/monorepo-example.git"
