@@ -5,10 +5,6 @@
   "scripts": {
     "start": "node packages/frontend/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gcbest/monorepo-example.git"
-  },
   "workspaces": [
     "packages/backend",
     "packages/frontend"
